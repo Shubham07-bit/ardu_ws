@@ -1,0 +1,16 @@
+digraph G {
+"odom" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 50.202\nBuffer length: 4.94\nMost recent transform: 227.5\nOldest transform: 222.56\n"];
+"base_link" -> "gimbal_link"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 227.5\nOldest transform: 222.55\n"];
+"base_link" -> "imu_link"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 227.5\nOldest transform: 222.55\n"];
+"roll_link" -> "pitch_link"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 227.5\nOldest transform: 222.55\n"];
+"yaw_link" -> "roll_link"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 227.5\nOldest transform: 222.55\n"];
+"gimbal_link" -> "yaw_link"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 227.5\nOldest transform: 222.55\n"];
+"base_link" -> "rotor_0"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 227.5\nOldest transform: 222.55\n"];
+"base_link" -> "rotor_1"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 227.5\nOldest transform: 222.55\n"];
+"base_link" -> "rotor_2"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 227.5\nOldest transform: 222.55\n"];
+"base_link" -> "rotor_3"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 227.5\nOldest transform: 222.55\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1754386533.0021644"[ shape=plaintext ] ;
+}->"odom";
+}

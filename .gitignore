@@ -1,0 +1,28 @@
+# ROS2 build folders
+build/
+install/
+log/
+logs/
+
+# Ignore build folders anywhere inside subdirectories
+**/build/
+**/install/
+**/log/
+**/logs/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.swp
+*.tmp
