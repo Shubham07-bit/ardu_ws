@@ -1,0 +1,33 @@
+[submodule "src/ardupilot_gazebo"]
+    path = src/ardupilot_gazebo
+    url = https://github.com/Shubham07-bit/ardupilot_gazebo.git
+[submodule "src/ardupilot"]
+    path = src/ardupilot
+    url = https://github.com/Shubham07-bit/ardupilot.git
+[submodule "src/ardupilot_gz"]
+    path = src/ardupilot_gz
+    url = https://github.com/Shubham07-bit/ardupilot_gz.git
+[submodule "src/ardupilot_ros"]
+    path = src/ardupilot_ros
+    url = https://github.com/Shubham07-bit/ardupilot_ros.git
+[submodule "src/ardupilot_sitl_models"]
+    path = src/ardupilot_sitl_models
+    url = https://github.com/Shubham07-bit/SITL_Models.git
+[submodule "src/mapviz"]
+    path = src/mapviz
+    url = https://github.com/Shubham07-bit/mapviz.git
+[submodule "src/marti_common"]
+    path = src/marti_common
+    url = https://github.com/Shubham07-bit/marti_common.git
+[submodule "src/marti_messages"]
+    path = src/marti_messages
+    url = https://github.com/Shubham07-bit/marti_messages.git
+[submodule "src/micro_ros_agent"]
+    path = src/micro_ros_agent
+    url = https://github.com/Shubham07-bit/micro-ROS-Agent.git
+[submodule "src/ros_gz"]
+    path = src/ros_gz
+    url = https://github.com/Shubham07-bit/ros_gz.git
+[submodule "src/sdformat_urdf"]
+    path = src/sdformat_urdf
+    url = https://github.com/Shubham07-bit/sdformat_urdf.git
