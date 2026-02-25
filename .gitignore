@@ -34,3 +34,6 @@ __pycache__/
 *.tif
 *.tlog
 *.tlog.raw
+*.out
+*.bin
+*.raw
