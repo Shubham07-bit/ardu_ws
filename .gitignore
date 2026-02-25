@@ -26,3 +26,5 @@ __pycache__/
 # Temporary files
 *.swp
 *.tmp
+# Contribution documentation (ignore)
+/contribution/
