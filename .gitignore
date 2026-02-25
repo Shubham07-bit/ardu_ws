@@ -28,3 +28,9 @@ __pycache__/
 *.tmp
 # Contribution documentation (ignore)
 /contribution/
+
+# Large terrain files (exceeds GitHub limit)
+/terrain/
+*.tif
+*.tlog
+*.tlog.raw
