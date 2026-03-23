@@ -1,36 +1,47 @@
 [submodule "src/ardupilot_gazebo"]
 	path = src/ardupilot_gazebo
 	url = https://github.com/Shubham07-bit/ardupilot_gazebo.git
+	branch = feature/nadir-camera-support
 [submodule "src/ardupilot"]
 	path = src/ardupilot
 	url = https://github.com/Shubham07-bit/ardupilot.git
+	branch = master
 [submodule "src/ardupilot_gz"]
 	path = src/ardupilot_gz
 	url = https://github.com/Shubham07-bit/ardupilot_gz.git
+	branch = feature/tiff-map-support
 [submodule "src/ardupilot_ros"]
 	path = src/ardupilot_ros
 	url = https://github.com/Shubham07-bit/ardupilot_ros.git
+	branch = feature/cartographer
 [submodule "src/ardupilot_sitl_models"]
 	path = src/ardupilot_sitl_models
 	url = https://github.com/Shubham07-bit/SITL_Models.git
+	branch = master
 [submodule "src/mapviz"]
 	path = src/mapviz
 	url = https://github.com/Shubham07-bit/mapviz.git
+	branch = ros2-devel
 [submodule "src/marti_common"]
 	path = src/marti_common
 	url = https://github.com/Shubham07-bit/marti_common.git
+	branch = ros2-devel
 [submodule "src/marti_messages"]
 	path = src/marti_messages
 	url = https://github.com/Shubham07-bit/marti_messages.git
+	branch = ros2-devel
 [submodule "src/micro_ros_agent"]
 	path = src/micro_ros_agent
 	url = https://github.com/Shubham07-bit/micro-ROS-Agent.git
+	branch = humble
 [submodule "src/ros_gz"]
 	path = src/ros_gz
 	url = https://github.com/Shubham07-bit/ros_gz.git
+	branch = humble
 [submodule "src/sdformat_urdf"]
 	path = src/sdformat_urdf
 	url = https://github.com/Shubham07-bit/sdformat_urdf.git
+	branch = humble
 [submodule "src/Micro-XRCE-DDS-Gen"]
 	path = src/Micro-XRCE-DDS-Gen
 	url = https://github.com/eProsima/Micro-XRCE-DDS-Gen.git
